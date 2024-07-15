@@ -1,0 +1,35 @@
+#1 задание
+x = int(input("Enter the 1st number: "));
+y = int(input("Enter the 2nd number: "));
+z = int(input("Enter the 3d number: "));
+
+print("What operations would you like to do: \n1. Summarize \n2. Multiply\n");
+answer = int(input("Your answer: "));
+
+if answer == 1:
+    print("x + y + z = ", x + y + z);
+
+elif answer == 2:
+    print("x * y * z = ", x * y * z);
+
+else:
+    print("Your answer doesnt match.");
+
+#2 задание
+salary = int(input("Salary: "));
+credit = int(input("Credit: "));
+debt = int(input("Debt: "));
+
+print("You have ", salary - credit - debt, " dollars left");
+
+#3 задание
+diagonal_1 = int(input("1st diagonal: "));
+diagonal_2 = int(input("2nd diagonal: "));
+
+print("The area of the rhomb equals ", 0.5 * diagonal_1 * diagonal_2);
+
+#4 задание
+print("To be \nor not \nto be");
+
+#5 задание
+print("Life is what happens \n     when \n         you're busy making other plans");
